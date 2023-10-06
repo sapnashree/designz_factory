@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>About Us| Band Template</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="dummy/logo.png" alt="logo">
+						
+					</a> <!-- #branding -->
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item "><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item"><a href="service.html">Service</a></li>
+							<li class="menu-item"><a href="gallery.html">Portfolio</a></li>
+							<li class="menu-item current-menu-item"><a href="career.html">Career</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+					</nav> <!-- .main-navigation -->
+					<div class="mobile-menu"></div>
+				</div>
+			</header> <!-- .site-header -->
+
+			<div class="hero">
+				<div class="slider">
+					<ul class="slides">
+						<li class="lazy-bg" data-background="dummy/career.jpg">
+							<!-- <div class="container"> -->
+								<h2 class="slide-title" style="position: relative;top: 400px;left: 10px;">Career</h2>
+								<!-- <p class="slide-desc">Your brand is what people say about you when you're not in the room.</p> -->
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<h2 class="entry-title" style="text-align: center;">Join Our Team!</h2>
+                <h5 style="text-align: center;" >Join our team at Designz Factory and take your career to new heights..</h5>
+				
+				<div class="flex-container">
+					<div class="flex-item">
+					<!-- <h5 style="text-align: left;">Full Time</h5> -->
+					<h2 style="color: white;">Marketing Head</h2>	
+					<p>Be the driving force behind successful marketing campaigns 
+						as a Marketing Advisor, leveraging your expertise to guide clients towards growth and success</p>
+						<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+					<div class="flex-item">
+						
+						<h2 style="color: white;">UI / UX Designer</h2>	
+						<p>Be the driving force behind successful marketing campaigns 
+							as a Marketing Advisor, leveraging your expertise to guide clients towards growth and success</p>
+							<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+					<div class="flex-item">
+					
+						<h2 style="color: white;">	Digital MKT Expert</h2>	
+						<p>Lead, motivate, and empower a team of talented individuals as a Supervisor, overseeing day-to-day operations and driving exceptional performance in achieving organizational goals.</p>
+							<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+					<div class="flex-item">
+					
+						<h2 style="color: white;">	PHP Developer</h2>	
+						<p>Be the driving force behind successful marketing campaigns 
+							as a Marketing Advisor, leveraging your expertise to guide clients towards growth and success</p>
+							<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+					<div class="flex-item">
+					
+						<h2 style="color: white;">Web Developer</h2>	
+						<p>Shape the digital landscape with your coding prowess as a Web Developer, crafting cutting-edge websites and applications that engage and delight users.</p>
+							<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+					<div class="flex-item">
+					
+						<h2 style="color: white;">	Graphic Designer</h2>	
+						<p>Unleash your creativity and bring visual stories to life as a Graphic Designer, transforming ideas into stunning designs that captivate and inspire</p>
+							<a href="#" class="button cut-corner">Apply Now</a>
+					</div>
+				</div>
+
+
+			</main>
+			 <!-- .main-content -->
+
+			<div style="border:1px solid white;width: 60%;left:20%;position: relative;padding: 20px;border-radius: 25px;">
+				 <h1  style="color: white;text-align: center;">Job Application Form</h1>
+				 <form action="submit.php" method="post" enctype="multipart/form-data">
+					 <!-- <label for="name">Name:</label> -->
+					 <input type="text" id="name" name="name" value="Enter your Name" required><br><br>
+			 
+					 <!-- <label for="email">Email:</label> -->
+					 <input type="email" id="email" name="email" value="Enter your Email-id" required><br><br>
+			 
+					 <!-- <label for="mobile">Mobile:</label> -->
+					 <input type="tel" id="mobile" name="mobile" value="Enter your Number" required><br><br>
+			 
+					 <!-- <label for="exp">Experience:</label> -->
+					 <input type="text" id="exp" name="exp" value="Experience in years" required><br><br>
+			 
+					 <!-- <label for="designation">Designation:</label> -->
+					 <select id="designation" name="designation" value="Apply For" required>
+						 <option value="A">Graphic Designer</option>
+						 <option value="B">Web Developer</option>
+						 <option value="C">PHP Developer</option>
+						 <option value="C">Digital MKT Expert</option>
+						 <option value="C">UI / UX Designer</option>
+						 <option value="C">Marketing Head</option>
+					 </select><br><br>
+			        <div id="upload">
+					   <label for="resume">Upload Resume:</label>
+					   <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+					</div>
+					 <input type="submit" value="Submit">
+				 </form>
+			</div>
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<footer class="site-footer">
+				<div class="container">
+					<img src="dummy/logo.png" alt="Site Name" style="width: 120px;">
+					
+					<address>
+						<p>#16 first floor Wing-A, Sagar Complex Kasarwadi, Pune-411034 <br><a href="tel:354543543">9112297779</a> <br> <a href="mailto:vedhindia@gmail.com">vedhindia@gmail.com</a></p> 
+					</address> 
+					
+					<form action="#" class="newsletter-form">
+						<input type="email" placeholder="Enter your email to join newsletter...">
+						<input type="submit" class="button cut-corner" value="Subscribe">
+					</form> <!-- .newsletter-form -->
+					
+					<div class="social-links">
+						<a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+						<a href="https://www.youtube.com/channel/UCh3akhkLjsBpl8R563IfSsQ/featured" target="_blank"><i class="fa fa-youtube-play"></i></a>
+						<a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square" ></i></a>
+						<a href="https://www.pinterest.com/vedhdigital/?sender=660903451475171367&invite_code=a759834dc7524cedab50177d0c3b75f9" target="_blank"><i class="fa fa-pinterest"></i></a>
+					</div> <!-- .social-links -->
+					
+					<p class="copy">Copyright 2019 Designz Factory.  All right reserved</p>
+				</div>
+			</footer> <!-- .site-footer -->
+		
+
+		</div> <!-- #site-content -->
+
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
